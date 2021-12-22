@@ -1,0 +1,9 @@
+[package]
+name = "conge-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+winapi = {version = "0.3.9", features = ["std", "consoleapi", "impl-default", "processenv", "winbase", "wincon", "winuser"]}
+num-derive = "0.3"
+num-traits = "0.2"
